@@ -1,4 +1,4 @@
-```
+```JavaScript
  setTimeout(function(){
      console.log('定时器开始啦')
  });
