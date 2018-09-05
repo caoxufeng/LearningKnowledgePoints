@@ -17,6 +17,15 @@
 
 
 
+事实上,按照异步和同步的划分方式,并不准确。
+
+而准确的划分方式是:
+
+* macro-task(宏任务)：包括整体代码script，setTimeout，setInterval
+* micro-task(微任务)：Promise，process.nextTick
+
+
+
 ![avatar](https://image-static.segmentfault.com/386/112/386112937-5a5763d9ef823_articlex)
 
 
