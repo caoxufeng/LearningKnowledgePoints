@@ -1,0 +1,15 @@
+setTimeout(function () {
+    console.log('定时器开始啦！');
+});
+
+new Promise(function (resolve) {
+    console.log("马上开始执行for循环");
+    for (var i = 0; i < 10000; i++) {
+        i == 99 && resolve();
+    }
+}).then(function () {
+    console.log("执行then函数啦");
+});
+
+
+console.log("代理执行结束");
